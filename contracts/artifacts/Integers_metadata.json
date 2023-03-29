@@ -4,7 +4,73 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "anotherNumber",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "newAnotherNumber",
+						"type": "int256"
+					}
+				],
+				"name": "setAnotherNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +99,11 @@
 	},
 	"sources": {
 		"contracts/Integers.sol": {
-			"keccak256": "0x743c31a360e89c33968f9751195c8f97c26b4709908710b0445500ba4ad861c5",
+			"keccak256": "0x67b02757ea2e79d66919acc1e5324ed820fe1528aeec6bc54c9b4ec3b363beae",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ee920add383606408362fc4bd19dcb03eb567acf3dd945bec25c9abba4201f08",
-				"dweb:/ipfs/QmUZhZjwYoX6bCtRdvMCLVaaW3HudLJ4vc6LaxwG5hhzho"
+				"bzz-raw://066a2f8484f2b936480992a16102c917bf64e036ea738c18f184520499284811",
+				"dweb:/ipfs/QmNXeDsyYRzMZurqtp8HNAjZtWnGgHxMsNibMZTv7BUgRm"
 			]
 		}
 	},
