@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Address.sol": {
-			"keccak256": "0xb53a902164840d8ddf587afe7e802be00694a8194270ede9599b64da40a43db3",
+			"keccak256": "0x016e456bef12a98de51250e7bf0afea37a4eb5a9479a43966d0530ac1ec316dc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://19109cc9c1930bc8eaa30e84508b6545b94b01453bb0600407ef4fb952ce35c3",
-				"dweb:/ipfs/QmWSfczPDrWCYNfCaZBhojcM4RH186V8qf2NbFmdvRxN7P"
+				"bzz-raw://f7659375bd1e50c9ef29fd5962221bf0af72829b10fe06af5aa54c8b8df9c0f8",
+				"dweb:/ipfs/QmUZ6fBXT78JcwQXQByU6NKSY5bCtnD8xse131PPDdVnvF"
 			]
 		}
 	},
