@@ -8,4 +8,8 @@ contract Booleans{
     function getVar() public view returns (bool){
         return isOwner;
     }
+
+    function setVar(bool newValue) public{
+        isOwner = newValue;
+    }
 }

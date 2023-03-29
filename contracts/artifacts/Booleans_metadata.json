@@ -30,6 +30,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "newValue",
+						"type": "bool"
+					}
+				],
+				"name": "setVar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/Booleans.sol": {
-			"keccak256": "0xf35955dc6613b37a67e707262b4250940bf83e49f0b9be27ee7b6dfce4e82e89",
+			"keccak256": "0xb4dd9988035ff9d65e7772f08a38527024a0a336f6269e63da68d57112263283",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3b2bcb6061da305d16e96f0c6601877e9d75a61f658d0b38e365027516a8ea2d",
-				"dweb:/ipfs/Qmeb5qrf3cY9NRQEfxyP4nv9g9NQ2WLniBMryYfWGD97NL"
+				"bzz-raw://b2cc6f827577de420fac11d423b3a53af5dac9616b49f2615ac7a065a11f7854",
+				"dweb:/ipfs/QmSu1ioFocvhgxAQaEhr2gXnGEGerh8YpKyqzscAbTSqRH"
 			]
 		}
 	},
