@@ -4,7 +4,34 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "stateString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewExample",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Functions.sol": {
-			"keccak256": "0xfae009433b999b00d632d2898e32bf6f6cce981e77a41c66f6e929a0080f62e7",
+			"keccak256": "0x959205675e6381af60bce7bd75895104edba4c0755e983836c91cee266895008",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6a939cb923927acf9003431a5d5c22855fe9982fd0a5c9aa6bdb11023cdf79cc",
-				"dweb:/ipfs/QmZ268x8b8GmQaHpk9R2cZXVMk5UY3RnyWuHGLFCmfb4fR"
+				"bzz-raw://9710bd35ac68f2013dbaaa620ca60866ab319a33ed4b69e2fe6ed05199341fc5",
+				"dweb:/ipfs/QmSo1ufSKJ6zjZHSAfPQf8SZEAo7CPsBpUNA81kzDHkAF4"
 			]
 		}
 	},
