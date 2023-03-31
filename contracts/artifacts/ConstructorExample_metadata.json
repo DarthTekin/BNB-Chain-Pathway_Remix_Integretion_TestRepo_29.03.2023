@@ -6,6 +6,22 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "age",
 				"outputs": [
@@ -73,11 +89,11 @@
 	},
 	"sources": {
 		"contracts/ConstructorExample.sol": {
-			"keccak256": "0x8b282cba00e0610f1a10ddb415f04698448a6dd6fe896d62775442062cd1501f",
+			"keccak256": "0x7f921c07ef9cd8ef75cc3b5ab78040c8af09971ab9697f2bdd95815e3b894e50",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7b62681f6cdaafd90507723092d19141d15fb7035b066efd97c32a8129d44ee2",
-				"dweb:/ipfs/QmZhzAX6hGDFgt9j7fE4cgJdMN5SKeY2bMm1qWDrE7mKrN"
+				"bzz-raw://d00cb1fdbf8437773f7ce1287d4bd1da4155bde79238c314103041378c8799af",
+				"dweb:/ipfs/QmeXPX2siykaFTAmC9UZ3QgEAtW4ARuzCawNw2o4QG8rR5"
 			]
 		}
 	},
