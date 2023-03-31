@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "stop",
+						"type": "uint256"
+					}
+				],
+				"name": "forLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "ifElse",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ControlStructures.sol": "ControlStructures"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ControlStructures.sol": {
+			"keccak256": "0x50fee2cf8e93a7722386ed16d7a4ac102d0c8d9b07861190e860cc505a2aa38d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0db08160a33fd8150d91752b82e585bc9078727e1292e4249a3e2cc8de43a5a3",
+				"dweb:/ipfs/QmYZqby5BYCvKTZnhAbHEHKZHc9pKkGonvSYwQVkAC2VMe"
+			]
+		}
+	},
+	"version": 1
+}
