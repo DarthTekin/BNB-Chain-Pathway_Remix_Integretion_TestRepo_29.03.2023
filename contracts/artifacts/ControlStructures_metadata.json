@@ -42,6 +42,25 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "whileLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -72,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/ControlStructures.sol": {
-			"keccak256": "0x50fee2cf8e93a7722386ed16d7a4ac102d0c8d9b07861190e860cc505a2aa38d",
+			"keccak256": "0x3f34894f3341badedd1df1dc3febba5c24e679bd2b501602930059c622931158",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0db08160a33fd8150d91752b82e585bc9078727e1292e4249a3e2cc8de43a5a3",
-				"dweb:/ipfs/QmYZqby5BYCvKTZnhAbHEHKZHc9pKkGonvSYwQVkAC2VMe"
+				"bzz-raw://90d03116d44c3dc5cab6e59ea1f7d63efdd46bc75e7d2d059d433e2829eae020",
+				"dweb:/ipfs/QmeyWNXK1pdSTyzPxGzmJicu5eLW5MLKXiXbQoeRFHUFcS"
 			]
 		}
 	},

@@ -5,6 +5,7 @@ pragma solidity ^0.8.19;
 contract ControlStructures{
 
     function ifElse(uint256 x) public pure returns(uint256){
+        
         if (x > 10){
             return x + 1;
         }
@@ -21,5 +22,15 @@ contract ControlStructures{
             }
         }
         return sum;
+    }
+
+    function whileLoop(uint number) public pure returns(uint){
+        uint count = 0;
+        
+        while(number != 0){
+            count++;
+            number--;
+        }
+        return count;
     }
 }
