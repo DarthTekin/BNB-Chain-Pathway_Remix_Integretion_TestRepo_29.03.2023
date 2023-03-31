@@ -3,7 +3,7 @@
 pragma solidity ^0.8.19;
 
 contract Variables{
-    string public myStateVariable = "state example ";
+    string public myStateVariable = "state example";
 
     function add(uint a) public pure returns(uint){
         uint localUint = 10;
