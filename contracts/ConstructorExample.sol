@@ -12,4 +12,13 @@ contract ConstructorExample{
         name = _name;
         age = _age;
     }
+
+    modifier onlyOwner(){
+        require(msg.sender == owner, "Only the owner can call this function.");
+        _;        
+    }
+
+    function changeName(string memory _newName) public onlyOwner{
+        name = _newName;
+    }
 }
