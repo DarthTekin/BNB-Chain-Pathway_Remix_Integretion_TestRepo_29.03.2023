@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doubleMyNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyContract.sol": {
+			"keccak256": "0x6ce17c4fe57b70cec8eb27bb500b0c215788b79bb4f5b58a102a398f6cd32af0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://892abbd5233a85bba55abe62b0673087bbe52f2a4f4218c341921481448fa926",
+				"dweb:/ipfs/QmYpYKAn6sgZVh5ai9WUTZwCcS9Z9yjViG6r2xugmvvhfs"
+			]
+		},
+		"contracts/MyLibrary.sol": {
+			"keccak256": "0xbd0b11fe904d47b013fe61783ffcfd4f25abc77e38b2b278edeb515e07748080",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0d0dbd6aa83d6d4e6226c93d1aff92f979a90375726339e96b3a4f45f9b50571",
+				"dweb:/ipfs/QmQiVwb9bKWnhDUYaX6crQjjZaDxnbFEK7HbGVEQ88E9rT"
+			]
+		}
+	},
+	"version": 1
+}
